@@ -4,6 +4,34 @@ export const SEED: Array<
   Omit<Oportunidade, "origem" | "fonteId" | "fonteUrl" | "subtitulo" | "imagemUrl">
 > = [
   {
+    id: "cepedi-residencia-em-games-turma-2",
+    titulo: "Residência em Games: 600 vagas gratuitas na Bahia e em Sergipe",
+    tipo: "curso",
+    organizacao: "CEPEDI",
+    descricao:
+      "A segunda turma da Residência em TIC 56 começa com três meses de formação básica em lógica de programação, matemática e física aplicadas a jogos, sem bolsa. O programa combina aulas online com encontros presenciais aos sábados, a cada duas semanas letivas. Os polos são Lauro de Freitas (260 vagas), Salvador (160), Aracaju e Nossa Senhora do Socorro (180 somadas). Nas etapas seguintes, com novas seleções, entram game design, roteiro e ilustração. A prova online de entrada está prevista para 13 de dezembro de 2026. Consulte o edital e a errata no site do programa antes de se inscrever.",
+    area: "Ciência da Computação",
+    nivel: "todos",
+    modalidade: "hibrido",
+    pais: "Brasil",
+    cidade: null,
+    beneficio: "Formação gratuita. Sem bolsa na etapa inicial; R$ 300/mês na formação técnica e R$ 2.000/mês na residência, para quem avançar nas seleções.",
+    prazoInscricao: "2026-12-06",
+    dataInicio: "2027-02-01",
+    dataFim: null,
+    urlInscricao: "https://www.residenciagames.cepedi.org.br/inscricao2",
+    requisitos: [
+      "Ter pelo menos 16 anos completos até o fim das inscrições.",
+      "Estar no último ano ou semestre de curso técnico elegível em escola ou instituto federal da Bahia ou de Sergipe; ou cursar graduação elegível ou atuar nas áreas previstas e residir em um desses estados.",
+      "Ter disponibilidade para os encontros presenciais no polo escolhido.",
+      "Não ter participado de outra residência tecnológica do CEPEDI nos 24 meses anteriores à publicação do edital, com ou sem bolsa.",
+    ],
+    tags: ["Games", "Game design", "Formação gratuita"],
+    vagas: 600,
+    criadoEm: "2026-11-19T08:45:00.000Z",
+    atualizadoEm: "2026-11-19T08:45:00.000Z",
+  },
+  {
     id: "hackers-do-bem-hub-ciberseguranca",
     titulo: "Hub Hackers do Bem: materiais gratuitos de cibersegurança",
     tipo: "curso",
