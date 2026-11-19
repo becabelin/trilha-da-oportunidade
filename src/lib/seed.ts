@@ -4,6 +4,29 @@ export const SEED: Array<
   Omit<Oportunidade, "origem" | "fonteId" | "fonteUrl" | "subtitulo" | "imagemUrl">
 > = [
   {
+    id: "hackers-do-bem-hub-ciberseguranca",
+    titulo: "Hub Hackers do Bem: materiais gratuitos de cibersegurança",
+    tipo: "curso",
+    organizacao: "Hackers do Bem",
+    descricao:
+      "O Hub oficial reúne materiais de estudo, webinars, notícias e uma comunidade de cibersegurança. O acesso ao Hub é gratuito e aberto a quem se interessa pelo tema, inclusive quem ainda não é aluno. O cadastro do Hub é separado da matrícula nos cursos do Hackers do Bem. Não há nova turma confirmada nesta ficha; acompanhe hackersdobem.org.br para saber quando houver uma chamada oficial.",
+    area: "Ciência da Computação",
+    nivel: "todos",
+    modalidade: "remoto",
+    pais: "Brasil",
+    cidade: null,
+    beneficio: "Hub gratuito, com materiais de estudo e webinars",
+    prazoInscricao: null,
+    dataInicio: null,
+    dataFim: null,
+    urlInscricao: "https://hub.hackersdobem.org.br/inscreva-se/",
+    requisitos: ["Ter interesse em cibersegurança", "Criar uma conta do Hub para usar os recursos que exigem login"],
+    tags: ["Cibersegurança", "Formação gratuita", "Tecnologia"],
+    vagas: null,
+    criadoEm: "2026-11-19T02:29:46.008Z",
+    atualizadoEm: "2026-11-19T02:29:46.008Z",
+  },
+  {
     id: "pibic-cnpq-2026",
     titulo: "PIBIC: Bolsa de Iniciação Científica CNPq",
     tipo: "bolsa",
